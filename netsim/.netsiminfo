@@ -1,0 +1,42 @@
+
+## device nil0
+devices[0]=nil0
+prefix[0]=nil
+netconf_ssh_port[0]=12022
+netconf_tcp_port[0]=13022
+snmp_port[0]=11022
+cli_ssh_port[0]=10022
+ipc_port[0]=5010
+devicedirs[0]=nil/nil0
+packagedirs[0]=../packages/cisco-ios-cli-3.0
+abspackagedirs[0]=/root/nil_NSO_exercise/packages/cisco-ios-cli-3.0
+#######
+
+
+## device nil1
+devices[1]=nil1
+prefix[1]=nil
+netconf_ssh_port[1]=12023
+netconf_tcp_port[1]=13023
+snmp_port[1]=11023
+cli_ssh_port[1]=10023
+ipc_port[1]=5011
+devicedirs[1]=nil/nil1
+packagedirs[1]=../packages/cisco-ios-cli-3.0
+abspackagedirs[1]=/root/nil_NSO_exercise/packages/cisco-ios-cli-3.0
+#######
+
+
+## device nil2
+devices[2]=nil2
+prefix[2]=nil
+netconf_ssh_port[2]=12024
+netconf_tcp_port[2]=13024
+snmp_port[2]=11024
+cli_ssh_port[2]=10024
+ipc_port[2]=5012
+devicedirs[2]=nil/nil2
+packagedirs[2]=../packages/cisco-ios-cli-3.0
+abspackagedirs[2]=/root/nil_NSO_exercise/packages/cisco-ios-cli-3.0
+#######
+

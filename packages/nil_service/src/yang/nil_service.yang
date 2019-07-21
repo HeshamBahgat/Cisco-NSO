@@ -1,0 +1,53 @@
+module nil_service {
+  namespace "http://com/example/nil_service";
+  prefix nil_service;
+
+   import tailf-common {
+    prefix tailf;
+    }
+
+  import ietf-inet-types {
+    prefix inet;
+  }
+
+  import tailf-ncs {
+    prefix ncs;
+  }
+
+  list nil_service {
+    key device;
+
+    uses ncs:service-data;
+    ncs:servicepoint "nil_service";
+
+    leaf device {
+    tailf:info "Device Id";
+      type leafref {
+        path "/ncs:devices/ncs:device/ncs:name";
+      }
+    }
+
+    list interface{
+    key id;
+
+    leaf id {
+    tailf:info "Interface Id";
+      mandatory true;
+      type uint16;
+    }
+
+  leaf ip-address {
+  tailf:info "Interface IP Address";
+  mandatory true;
+  type inet:ipv4-address;
+  }
+
+  leaf mask {
+  tailf:info "Prefex";
+  mandatory true;
+  type inet:ipv4-address;
+  }
+}
+
+}
+    }

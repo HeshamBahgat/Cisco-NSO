@@ -1,0 +1,24 @@
+<config-template xmlns="http://tail-f.com/ns/config/1.0"
+                 servicepoint="nil_service">
+  <devices xmlns="http://tail-f.com/ns/ncs">
+    <device>
+      <name>{/device}</name>
+      <config>
+        <interface xmlns="urn:ios">
+          <GigabitEthernet>
+            <name>{interface/id}</name>
+            <description>GigabitEthernet-service</description>
+            <ip>
+              <address>
+                <primary>
+                  <address>{ip-address}</address>
+                  <mask>{mask}</mask>
+                </primary>
+              </address>
+            </ip>
+          </GigabitEthernet>
+        </interface>
+      </config>
+    </device>
+  </devices>
+</config-template>

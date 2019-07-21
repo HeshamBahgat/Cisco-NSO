@@ -1,0 +1,28 @@
+<config-template xmlns="http://tail-f.com/ns/config/1.0">
+  <devices xmlns="http://tail-f.com/ns/ncs">
+
+     <?foreach {/device}?>
+        <device>
+          <name>{/device}</name>
+          <config>
+            <interface xmlns="urn:ios">
+          <GigabitEthernet>
+            <name>{$ID}</name>
+            <description>GigabitEthernet-service</description>
+            <ip>
+              <address>
+                <primary>
+                  <address>{$IP}</address>
+                  <mask>{$MASK}</mask>
+                </primary>
+              </address>
+            </ip>
+          </GigabitEthernet>
+        </interface>
+          </config>
+        </device>
+      <?end?>
+
+
+  </devices>
+</config-template>

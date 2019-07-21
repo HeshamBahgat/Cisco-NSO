@@ -1,0 +1,5 @@
+# Meta information for the building process
+PACKAGES = nil_service gns3_service cisco-ios-cli-3.8 cisco-ios-cli-3.0
+GIT_PACKAGES =
+NCSVSNSTRICT: 5.1
+NCSVSN: 5.1

@@ -1,0 +1,56 @@
+module gns3_service {
+
+  namespace "http://example.com/gns3_service";
+  prefix gns3_service;
+
+  import ietf-inet-types {
+    prefix inet;
+  }
+  import tailf-common {
+    prefix tailf;
+  }
+  import tailf-ncs {
+    prefix ncs;
+  }
+
+
+  description
+    "This is an Interview Exercise";
+
+  revision 2019-05-01 {
+    description
+      "Implements Basic Interface Configration";
+  }
+
+
+  list gns3_service {
+    uses ncs:service-data;
+    ncs:servicepoint gns3_service-servicepoint;
+    tailf:info "Manage L3 Services";
+    description "A Layer 3 Configuration";
+
+    key device;
+    leaf device {
+      type leafref {
+        path /ncs:devices/ncs:device/ncs:name;
+      }
+      }
+
+    leaf id {
+      tailf:info "Interface Id";
+      mandatory true;
+      type uint16;
+    }
+
+    leaf ip {
+      tailf:info "IP address";
+      type inet:ipv4-address;
+    }
+
+    leaf mask {
+    tailf:info "Prefix";
+    mandatory true;
+    type inet:ipv4-address;
+}
+  }
+  }
