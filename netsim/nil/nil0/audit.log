@@ -1,60 +1,59 @@
-<INFO> 21-Jul-2019::00:44:44.193 kali confd[23411]: audit user: admin/0 local authentication succeeded via cli from 127.0.0.1:35122 with ssh, member of groups: admin
-<INFO> 21-Jul-2019::00:44:44.194 kali confd[23411]: audit user: admin/0 logged in via cli from 127.0.0.1:35122 with ssh using local authentication
-<INFO> 21-Jul-2019::00:44:44.295 kali confd[23411]: audit user: admin/13 assigned to groups: admin
-<INFO> 21-Jul-2019::00:44:44.295 kali confd[23411]: audit user: admin/13 created new session via cli from 127.0.0.1:35122 with ssh
-<INFO> 21-Jul-2019::00:44:44.465 kali confd[23411]: audit user: admin/13 CLI 'enable'
-<INFO> 21-Jul-2019::00:44:44.466 kali confd[23411]: audit user: admin/13 CLI done
-<INFO> 21-Jul-2019::00:44:44.472 kali confd[23411]: audit user: admin/13 CLI 'terminal length 0'
-<INFO> 21-Jul-2019::00:44:44.624 kali confd[23411]: audit user: admin/13 CLI done
-<INFO> 21-Jul-2019::00:44:44.628 kali confd[23411]: audit user: admin/13 CLI 'terminal width 0'
-<INFO> 21-Jul-2019::00:44:44.654 kali confd[23411]: audit user: admin/13 CLI done
-<INFO> 21-Jul-2019::00:44:44.713 kali confd[23411]: audit user: admin/13 CLI 'show version'
-<INFO> 21-Jul-2019::00:44:44.779 kali confd[23411]: audit user: admin/13 CLI done
-<INFO> 21-Jul-2019::00:45:00.594 kali confd[23411]: audit user: admin/13 CLI 'show running-config'
-<INFO> 21-Jul-2019::00:45:01.040 kali confd[23411]: audit user: admin/13 CLI done
-<INFO> 21-Jul-2019::00:45:01.746 kali confd[23411]: audit user: admin/13 CLI 'show running-config'
-<INFO> 21-Jul-2019::00:45:01.987 kali confd[23411]: audit user: admin/13 CLI done
-<INFO> 21-Jul-2019::00:45:28.032 kali confd[23411]: audit user: admin/0 logged out <local> user
-<INFO> 21-Jul-2019::00:45:28.036 kali confd[23411]: audit user: admin/13 terminated session (reason: normal)
-<INFO> 21-Jul-2019::01:13:30.339 kali confd[23411]: audit user: admin/0 local authentication succeeded via cli from 127.0.0.1:35276 with ssh, member of groups: admin
-<INFO> 21-Jul-2019::01:13:30.367 kali confd[23411]: audit user: admin/0 logged in via cli from 127.0.0.1:35276 with ssh using local authentication
-<INFO> 21-Jul-2019::01:13:30.488 kali confd[23411]: audit user: admin/14 assigned to groups: admin
-<INFO> 21-Jul-2019::01:13:30.502 kali confd[23411]: audit user: admin/14 created new session via cli from 127.0.0.1:35276 with ssh
-<INFO> 21-Jul-2019::01:13:30.854 kali confd[23411]: audit user: admin/14 CLI 'enable'
-<INFO> 21-Jul-2019::01:13:30.857 kali confd[23411]: audit user: admin/14 CLI done
-<INFO> 21-Jul-2019::01:13:30.896 kali confd[23411]: audit user: admin/14 CLI 'terminal length 0'
-<INFO> 21-Jul-2019::01:13:31.145 kali confd[23411]: audit user: admin/14 CLI done
-<INFO> 21-Jul-2019::01:13:31.154 kali confd[23411]: audit user: admin/14 CLI 'terminal width 0'
-<INFO> 21-Jul-2019::01:13:31.484 kali confd[23411]: audit user: admin/14 CLI done
-<INFO> 21-Jul-2019::01:13:34.690 kali confd[23411]: audit user: admin/14 CLI 'show version'
-<INFO> 21-Jul-2019::01:13:35.334 kali confd[23411]: audit user: admin/14 CLI done
-<INFO> 21-Jul-2019::01:14:22.300 kali confd[23411]: audit user: admin/0 logged out <local> user
-<INFO> 21-Jul-2019::01:14:22.511 kali confd[23411]: audit user: admin/14 terminated session (reason: normal)
-<INFO> 21-Jul-2019::01:15:04.227 kali confd[23411]: audit user: admin/0 local authentication succeeded via cli from 127.0.0.1:35296 with ssh, member of groups: admin
-<INFO> 21-Jul-2019::01:15:04.228 kali confd[23411]: audit user: admin/0 logged in via cli from 127.0.0.1:35296 with ssh using local authentication
-<INFO> 21-Jul-2019::01:15:04.237 kali confd[23411]: audit user: admin/15 assigned to groups: admin
-<INFO> 21-Jul-2019::01:15:04.273 kali confd[23411]: audit user: admin/15 created new session via cli from 127.0.0.1:35296 with ssh
-<INFO> 21-Jul-2019::01:15:04.534 kali confd[23411]: audit user: admin/15 CLI 'enable'
-<INFO> 21-Jul-2019::01:15:04.535 kali confd[23411]: audit user: admin/15 CLI done
-<INFO> 21-Jul-2019::01:15:04.540 kali confd[23411]: audit user: admin/15 CLI 'terminal length 0'
-<INFO> 21-Jul-2019::01:15:04.555 kali confd[23411]: audit user: admin/15 CLI done
-<INFO> 21-Jul-2019::01:15:04.585 kali confd[23411]: audit user: admin/15 CLI 'terminal width 0'
-<INFO> 21-Jul-2019::01:15:04.630 kali confd[23411]: audit user: admin/15 CLI done
-<INFO> 21-Jul-2019::01:15:04.653 kali confd[23411]: audit user: admin/15 CLI 'show version'
-<INFO> 21-Jul-2019::01:15:04.668 kali confd[23411]: audit user: admin/15 CLI done
-<INFO> 21-Jul-2019::01:15:38.104 kali confd[23411]: audit user: admin/0 logged out <local> user
-<INFO> 21-Jul-2019::01:15:38.106 kali confd[23411]: audit user: admin/15 terminated session (reason: normal)
-<INFO> 21-Jul-2019::01:16:23.773 kali confd[23411]: audit user: admin/0 local authentication succeeded via cli from 127.0.0.1:35326 with ssh, member of groups: admin
-<INFO> 21-Jul-2019::01:16:23.773 kali confd[23411]: audit user: admin/0 logged in via cli from 127.0.0.1:35326 with ssh using local authentication
-<INFO> 21-Jul-2019::01:16:23.778 kali confd[23411]: audit user: admin/16 assigned to groups: admin
-<INFO> 21-Jul-2019::01:16:23.778 kali confd[23411]: audit user: admin/16 created new session via cli from 127.0.0.1:35326 with ssh
-<INFO> 21-Jul-2019::01:16:23.825 kali confd[23411]: audit user: admin/16 CLI 'enable'
-<INFO> 21-Jul-2019::01:16:23.826 kali confd[23411]: audit user: admin/16 CLI done
-<INFO> 21-Jul-2019::01:16:23.865 kali confd[23411]: audit user: admin/16 CLI 'terminal length 0'
-<INFO> 21-Jul-2019::01:16:23.881 kali confd[23411]: audit user: admin/16 CLI done
-<INFO> 21-Jul-2019::01:16:23.912 kali confd[23411]: audit user: admin/16 CLI 'terminal width 0'
-<INFO> 21-Jul-2019::01:16:23.924 kali confd[23411]: audit user: admin/16 CLI done
-<INFO> 21-Jul-2019::01:16:23.968 kali confd[23411]: audit user: admin/16 CLI 'show version'
-<INFO> 21-Jul-2019::01:16:23.988 kali confd[23411]: audit user: admin/16 CLI done
-<INFO> 21-Jul-2019::01:17:16.077 kali confd[23411]: audit user: admin/0 logged out <local> user
-<INFO> 21-Jul-2019::01:17:16.110 kali confd[23411]: audit user: admin/16 terminated session (reason: normal)
+<INFO> 21-Jul-2019::11:18:35.839 kali confd[2279]: audit user: admin/0 local authentication succeeded via cli from 127.0.0.1:40084 with ssh, member of groups: admin
+<INFO> 21-Jul-2019::11:18:35.856 kali confd[2279]: audit user: admin/0 logged in via cli from 127.0.0.1:40084 with ssh using local authentication
+<INFO> 21-Jul-2019::11:18:35.951 kali confd[2279]: audit user: admin/13 assigned to groups: admin
+<INFO> 21-Jul-2019::11:18:35.951 kali confd[2279]: audit user: admin/13 created new session via cli from 127.0.0.1:40084 with ssh
+<INFO> 21-Jul-2019::11:18:36.408 kali confd[2279]: audit user: admin/13 CLI 'enable'
+<INFO> 21-Jul-2019::11:18:36.409 kali confd[2279]: audit user: admin/13 CLI done
+<INFO> 21-Jul-2019::11:18:36.430 kali confd[2279]: audit user: admin/13 CLI 'terminal length 0'
+<INFO> 21-Jul-2019::11:18:36.540 kali confd[2279]: audit user: admin/13 CLI done
+<INFO> 21-Jul-2019::11:18:36.543 kali confd[2279]: audit user: admin/13 CLI 'terminal width 0'
+<INFO> 21-Jul-2019::11:18:36.590 kali confd[2279]: audit user: admin/13 CLI done
+<INFO> 21-Jul-2019::11:18:36.634 kali confd[2279]: audit user: admin/13 CLI 'show version'
+<INFO> 21-Jul-2019::11:18:36.682 kali confd[2279]: audit user: admin/13 CLI done
+<INFO> 21-Jul-2019::11:19:07.155 kali confd[2279]: audit user: admin/0 logged out <local> user
+<INFO> 21-Jul-2019::11:19:07.159 kali confd[2279]: audit user: admin/13 terminated session (reason: normal)
+<INFO> 21-Jul-2019::11:28:33.810 kali confd[2279]: audit user: admin/0 local authentication succeeded via cli from 127.0.0.1:40150 with ssh, member of groups: admin
+<INFO> 21-Jul-2019::11:28:33.811 kali confd[2279]: audit user: admin/0 logged in via cli from 127.0.0.1:40150 with ssh using local authentication
+<INFO> 21-Jul-2019::11:28:33.815 kali confd[2279]: audit user: admin/14 assigned to groups: admin
+<INFO> 21-Jul-2019::11:28:33.815 kali confd[2279]: audit user: admin/14 created new session via cli from 127.0.0.1:40150 with ssh
+<INFO> 21-Jul-2019::11:28:33.863 kali confd[2279]: audit user: admin/14 CLI 'enable'
+<INFO> 21-Jul-2019::11:28:33.864 kali confd[2279]: audit user: admin/14 CLI done
+<INFO> 21-Jul-2019::11:28:33.908 kali confd[2279]: audit user: admin/14 CLI 'terminal length 0'
+<INFO> 21-Jul-2019::11:28:33.937 kali confd[2279]: audit user: admin/14 CLI done
+<INFO> 21-Jul-2019::11:28:33.951 kali confd[2279]: audit user: admin/14 CLI 'terminal width 0'
+<INFO> 21-Jul-2019::11:28:34.034 kali confd[2279]: audit user: admin/14 CLI done
+<INFO> 21-Jul-2019::11:28:34.075 kali confd[2279]: audit user: admin/14 CLI 'show version'
+<INFO> 21-Jul-2019::11:28:34.098 kali confd[2279]: audit user: admin/14 CLI done
+<INFO> 21-Jul-2019::11:28:34.192 kali confd[2279]: audit user: admin/14 CLI 'show running-config'
+<INFO> 21-Jul-2019::11:28:34.776 kali confd[2279]: audit user: admin/14 CLI done
+<INFO> 21-Jul-2019::11:28:35.132 kali confd[2279]: audit user: admin/14 CLI 'show running-config'
+<INFO> 21-Jul-2019::11:28:35.479 kali confd[2279]: audit user: admin/14 CLI done
+<INFO> 21-Jul-2019::11:29:06.125 kali confd[2279]: audit user: admin/0 logged out <local> user
+<INFO> 21-Jul-2019::11:29:06.150 kali confd[2279]: audit user: admin/14 terminated session (reason: normal)
+<INFO> 22-Jul-2019::10:19:09.425 kali confd[4608]: audit user: admin/0 local authentication succeeded via cli from 127.0.0.1:58102 with ssh, member of groups: admin
+<INFO> 22-Jul-2019::10:19:09.426 kali confd[4608]: audit user: admin/0 logged in via cli from 127.0.0.1:58102 with ssh using local authentication
+<INFO> 22-Jul-2019::10:19:09.528 kali confd[4608]: audit user: admin/13 assigned to groups: admin
+<INFO> 22-Jul-2019::10:19:09.529 kali confd[4608]: audit user: admin/13 created new session via cli from 127.0.0.1:58102 with ssh
+<INFO> 22-Jul-2019::10:19:09.702 kali confd[4608]: audit user: admin/13 CLI 'enable'
+<INFO> 22-Jul-2019::10:19:09.703 kali confd[4608]: audit user: admin/13 CLI done
+<INFO> 22-Jul-2019::10:19:09.707 kali confd[4608]: audit user: admin/13 CLI 'terminal length 0'
+<INFO> 22-Jul-2019::10:19:09.748 kali confd[4608]: audit user: admin/13 CLI done
+<INFO> 22-Jul-2019::10:19:09.758 kali confd[4608]: audit user: admin/13 CLI 'terminal width 0'
+<INFO> 22-Jul-2019::10:19:09.861 kali confd[4608]: audit user: admin/13 CLI done
+<INFO> 22-Jul-2019::10:19:09.912 kali confd[4608]: audit user: admin/13 CLI 'show version'
+<INFO> 22-Jul-2019::10:19:09.938 kali confd[4608]: audit user: admin/13 CLI done
+<INFO> 22-Jul-2019::10:19:40.848 kali confd[4608]: audit user: admin/0 logged out <local> user
+<INFO> 22-Jul-2019::10:19:40.851 kali confd[4608]: audit user: admin/13 terminated session (reason: normal)
+<INFO> 22-Jul-2019::10:21:45.645 kali confd[4608]: audit user: admin/0 local authentication succeeded via cli from 127.0.0.1:58144 with ssh, member of groups: admin
+<INFO> 22-Jul-2019::10:21:45.648 kali confd[4608]: audit user: admin/0 logged in via cli from 127.0.0.1:58144 with ssh using local authentication
+<INFO> 22-Jul-2019::10:21:45.701 kali confd[4608]: audit user: admin/14 assigned to groups: admin
+<INFO> 22-Jul-2019::10:21:45.702 kali confd[4608]: audit user: admin/14 created new session via cli from 127.0.0.1:58144 with ssh
+<INFO> 22-Jul-2019::10:21:45.748 kali confd[4608]: audit user: admin/14 CLI 'enable'
+<INFO> 22-Jul-2019::10:21:45.749 kali confd[4608]: audit user: admin/14 CLI done
+<INFO> 22-Jul-2019::10:21:45.792 kali confd[4608]: audit user: admin/14 CLI 'terminal length 0'
+<INFO> 22-Jul-2019::10:21:45.841 kali confd[4608]: audit user: admin/14 CLI done
+<INFO> 22-Jul-2019::10:21:45.845 kali confd[4608]: audit user: admin/14 CLI 'terminal width 0'
+<INFO> 22-Jul-2019::10:21:45.856 kali confd[4608]: audit user: admin/14 CLI done
+<INFO> 22-Jul-2019::10:21:45.909 kali confd[4608]: audit user: admin/14 CLI 'show version'
+<INFO> 22-Jul-2019::10:21:45.974 kali confd[4608]: audit user: admin/14 CLI done
+<INFO> 22-Jul-2019::10:22:10.990 kali confd[4608]: audit user: admin/14 terminated session (reason: normal)

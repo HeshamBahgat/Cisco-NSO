@@ -601,3 +601,444 @@
 21-Jul-2019::00:45:01.976 maapi_get_next(): evaluating: .
 21-Jul-2019::00:45:01.977 get_next(/voice-card) = false
 21-Jul-2019::00:45:01.977 maapi_get_next(): done
+21-Jul-2019::11:04:03.313 evaluating: /interface/Loopback[name='0']/fair-queue-conf: not(../name[contains(.,'.')])
+21-Jul-2019::11:04:03.363 result: /interface/Loopback[name='0']/fair-queue-conf: true
+21-Jul-2019::11:04:03.368 evaluating: /interface/FastEthernet[name='1/0']/xconnect/sequence: ../encapsulation = 'l2tpv3'
+21-Jul-2019::11:04:03.369 get_elem(/interface/FastEthernet[name='1/0']/xconnect/encapsulation) = not_found
+21-Jul-2019::11:04:03.369 result: /interface/FastEthernet[name='1/0']/xconnect/sequence: false
+21-Jul-2019::11:04:03.370 evaluating: /interface/FastEthernet[name='1/0']/fair-queue-conf: not(../name[contains(.,'.')])
+21-Jul-2019::11:04:03.370 result: /interface/FastEthernet[name='1/0']/fair-queue-conf: true
+21-Jul-2019::11:04:03.382 evaluating: /policy-map[name='map1']/class[name='c1']/policy: ../../type = 'inspect'
+21-Jul-2019::11:04:03.383 get_elem(/policy-map[name='map1']/type) = not_found
+21-Jul-2019::11:04:03.383 result: /policy-map[name='map1']/class[name='c1']/policy: false
+21-Jul-2019::11:04:03.384 evaluating: /policy-map[name='map1']/class[name='c1']/inspect-police: ../policy/action = 'inspect'
+21-Jul-2019::11:04:03.385 exists(/policy-map[name='map1']/class[name='c1']/policy) = true
+21-Jul-2019::11:04:03.385 get_elem(/policy-map[name='map1']/class[name='c1']/policy/action) = not_found
+21-Jul-2019::11:04:03.386 result: /policy-map[name='map1']/class[name='c1']/inspect-police: false
+21-Jul-2019::11:04:03.417 evaluating: /router/rip/address-family/ipv4/unicast/disable: ../passive-interface/default
+21-Jul-2019::11:04:03.418 exists(/router/rip/address-family/ipv4/unicast/passive-interface/default) = false
+21-Jul-2019::11:04:03.418 result: /router/rip/address-family/ipv4/unicast/disable: false
+21-Jul-2019::11:04:03.419 evaluating: /router/rip/disable: ../passive-interface/default
+21-Jul-2019::11:04:03.419 exists(/router/rip/passive-interface/default) = false
+21-Jul-2019::11:04:03.419 result: /router/rip/disable: false
+21-Jul-2019::11:04:03.420 evaluating: /router/rip/default/disable: ../passive-interface/default
+21-Jul-2019::11:04:03.421 exists(/router/rip/default/passive-interface/default) = false
+21-Jul-2019::11:04:03.421 result: /router/rip/default/disable: false
+21-Jul-2019::11:04:03.438 evaluating: /router/bgp[as-no='64512']/neighbor[id='1.2.3.4']: count(*) > 1
+21-Jul-2019::11:04:03.438 exists(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/peer-group) = false
+21-Jul-2019::11:04:03.439 get_elem(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/remote-as) = 1
+21-Jul-2019::11:04:03.440 exists(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/local-as) = false
+21-Jul-2019::11:04:03.440 exists(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/activate) = false
+21-Jul-2019::11:04:03.441 get_elem(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/advertisement-interval) = not_found
+21-Jul-2019::11:04:03.441 exists(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/allowas-in) = false
+21-Jul-2019::11:04:03.442 exists(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/as-override) = false
+21-Jul-2019::11:04:03.442 exists(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/default-originate) = false
+21-Jul-2019::11:04:03.443 get_elem(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/description) = not_found
+21-Jul-2019::11:04:03.443 exists(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/disable-connected-check) = false
+21-Jul-2019::11:04:03.444 get_next(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/distribute-list) = false
+21-Jul-2019::11:04:03.444 exists(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/dmzlink-bw) = false
+21-Jul-2019::11:04:03.445 exists(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/ebgp-multihop) = true
+21-Jul-2019::11:04:03.445 exists(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/fall-over) = false
+21-Jul-2019::11:04:03.446 get_next(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/filter-list) = false
+21-Jul-2019::11:04:03.447 exists(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/next-hop-self) = false
+21-Jul-2019::11:04:03.447 exists(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/next-hop-unchanged) = false
+21-Jul-2019::11:04:03.448 get_next(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/prefix-list) = false
+21-Jul-2019::11:04:03.448 exists(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/remove-private-as) = false
+21-Jul-2019::11:04:03.449 get_next(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/route-map) = false
+21-Jul-2019::11:04:03.449 exists(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/route-reflector-client) = false
+21-Jul-2019::11:04:03.450 exists(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/send-community) = false
+21-Jul-2019::11:04:03.450 exists(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/shutdown) = false
+21-Jul-2019::11:04:03.451 get_elem(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/soft-reconfiguration) = not_found
+21-Jul-2019::11:04:03.451 get_elem(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/unsuppress-map) = not_found
+21-Jul-2019::11:04:03.452 get_elem(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/version) = not_found
+21-Jul-2019::11:04:03.452 get_elem(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/weight) = not_found
+21-Jul-2019::11:04:03.453 result: /router/bgp[as-no='64512']/neighbor[id='1.2.3.4']: true
+21-Jul-2019::11:04:03.453 evaluating: /router/bgp[as-no='64512']/neighbor[id='2.3.4.5']: count(*) > 1
+21-Jul-2019::11:04:03.454 exists(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/peer-group) = false
+21-Jul-2019::11:04:03.455 get_elem(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/remote-as) = 1
+21-Jul-2019::11:04:03.455 exists(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/local-as) = false
+21-Jul-2019::11:04:03.456 exists(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/activate) = true
+21-Jul-2019::11:04:03.456 get_elem(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/advertisement-interval) = not_found
+21-Jul-2019::11:04:03.457 exists(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/allowas-in) = false
+21-Jul-2019::11:04:03.457 exists(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/as-override) = false
+21-Jul-2019::11:04:03.458 exists(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/default-originate) = false
+21-Jul-2019::11:04:03.458 get_elem(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/description) = not_found
+21-Jul-2019::11:04:03.459 exists(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/disable-connected-check) = false
+21-Jul-2019::11:04:03.459 get_next(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/distribute-list) = false
+21-Jul-2019::11:04:03.460 exists(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/dmzlink-bw) = false
+21-Jul-2019::11:04:03.460 exists(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/ebgp-multihop) = false
+21-Jul-2019::11:04:03.461 exists(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/fall-over) = false
+21-Jul-2019::11:04:03.462 get_next(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/filter-list) = false
+21-Jul-2019::11:04:03.462 exists(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/next-hop-self) = false
+21-Jul-2019::11:04:03.463 exists(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/next-hop-unchanged) = false
+21-Jul-2019::11:04:03.463 get_next(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/prefix-list) = false
+21-Jul-2019::11:04:03.464 exists(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/remove-private-as) = false
+21-Jul-2019::11:04:03.464 get_next(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/route-map) = false
+21-Jul-2019::11:04:03.465 exists(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/route-reflector-client) = false
+21-Jul-2019::11:04:03.465 exists(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/send-community) = false
+21-Jul-2019::11:04:03.466 exists(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/shutdown) = false
+21-Jul-2019::11:04:03.466 get_elem(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/soft-reconfiguration) = not_found
+21-Jul-2019::11:04:03.467 get_elem(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/unsuppress-map) = not_found
+21-Jul-2019::11:04:03.467 get_elem(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/version) = not_found
+21-Jul-2019::11:04:03.468 get_elem(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/weight) = 300
+21-Jul-2019::11:04:03.468 result: /router/bgp[as-no='64512']/neighbor[id='2.3.4.5']: true
+21-Jul-2019::11:28:34.389 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.435 get_next(/username) = false
+21-Jul-2019::11:28:34.435 maapi_get_next(): done
+21-Jul-2019::11:28:34.437 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.439 get_next(/controller) = false
+21-Jul-2019::11:28:34.442 maapi_get_next(): done
+21-Jul-2019::11:28:34.452 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.453 get_next(/ip/vrf) = {my-forward}
+21-Jul-2019::11:28:34.456 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.458 get_next(/ip/vrf[name='my-forward']/route-target) = false
+21-Jul-2019::11:28:34.458 maapi_get_next(): done
+21-Jul-2019::11:28:34.459 get_next(/ip/vrf[name='my-forward']) = false
+21-Jul-2019::11:28:34.460 maapi_get_next(): done
+21-Jul-2019::11:28:34.465 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.467 get_next(/ip/community-list/number-standard) = {1}
+21-Jul-2019::11:28:34.469 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.471 get_next(/ip/community-list/number-standard[no='1']/permit/permit-list) = false
+21-Jul-2019::11:28:34.471 maapi_get_next(): done
+21-Jul-2019::11:28:34.472 get_next(/ip/community-list/number-standard[no='1']) = {2}
+21-Jul-2019::11:28:34.473 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.475 get_next(/ip/community-list/number-standard[no='2']/deny/deny-list) = false
+21-Jul-2019::11:28:34.475 maapi_get_next(): done
+21-Jul-2019::11:28:34.476 get_next(/ip/community-list/number-standard[no='2']) = false
+21-Jul-2019::11:28:34.478 maapi_get_next(): done
+21-Jul-2019::11:28:34.484 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.486 get_next(/ip/community-list/number-expanded) = false
+21-Jul-2019::11:28:34.486 maapi_get_next(): done
+21-Jul-2019::11:28:34.487 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.488 get_next(/ip/community-list/expanded) = false
+21-Jul-2019::11:28:34.488 maapi_get_next(): done
+21-Jul-2019::11:28:34.490 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.491 get_next(/ip/community-list/standard) = {s}
+21-Jul-2019::11:28:34.493 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.496 get_next(/ip/community-list/standard[name='s']/permit/permit-list) = false
+21-Jul-2019::11:28:34.496 maapi_get_next(): done
+21-Jul-2019::11:28:34.497 get_next(/ip/community-list/standard[name='s']) = false
+21-Jul-2019::11:28:34.497 maapi_get_next(): done
+21-Jul-2019::11:28:34.506 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.507 get_next(/interface/Embedded-Service-Engine) = false
+21-Jul-2019::11:28:34.507 maapi_get_next(): done
+21-Jul-2019::11:28:34.512 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.513 get_next(/interface/FastEthernet) = {1/0}
+21-Jul-2019::11:28:34.514 evaluating: /interface/FastEthernet[name='1/0']/fair-queue-conf: not(../name[contains(.,'.')])
+21-Jul-2019::11:28:34.515 result: /interface/FastEthernet[name='1/0']/fair-queue-conf: true
+21-Jul-2019::11:28:34.521 evaluating: /interface/FastEthernet[name='1/0']/xconnect/manual: ../encapsulation = 'l2tpv3'
+21-Jul-2019::11:28:34.522 get_elem(/interface/FastEthernet[name='1/0']/xconnect/encapsulation) = not_found
+21-Jul-2019::11:28:34.523 result: /interface/FastEthernet[name='1/0']/xconnect/manual: false
+21-Jul-2019::11:28:34.530 get_next(/interface/FastEthernet[name='1/0']) = false
+21-Jul-2019::11:28:34.530 maapi_get_next(): done
+21-Jul-2019::11:28:34.532 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.533 get_next(/interface/GigabitEthernet) = false
+21-Jul-2019::11:28:34.533 maapi_get_next(): done
+21-Jul-2019::11:28:34.536 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.537 get_next(/interface/TenGigabitEthernet) = false
+21-Jul-2019::11:28:34.537 maapi_get_next(): done
+21-Jul-2019::11:28:34.540 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.541 get_next(/interface/Loopback) = {0}
+21-Jul-2019::11:28:34.541 evaluating: /interface/Loopback[name='0']/fair-queue-conf: not(../name[contains(.,'.')])
+21-Jul-2019::11:28:34.542 result: /interface/Loopback[name='0']/fair-queue-conf: true
+21-Jul-2019::11:28:34.555 get_next(/interface/Loopback[name='0']) = false
+21-Jul-2019::11:28:34.556 maapi_get_next(): done
+21-Jul-2019::11:28:34.558 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.559 get_next(/interface/Port-channel) = false
+21-Jul-2019::11:28:34.560 maapi_get_next(): done
+21-Jul-2019::11:28:34.561 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.562 get_next(/interface/Vlan) = false
+21-Jul-2019::11:28:34.562 maapi_get_next(): done
+21-Jul-2019::11:28:34.565 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.566 get_next(/interface/Group-Async) = false
+21-Jul-2019::11:28:34.566 maapi_get_next(): done
+21-Jul-2019::11:28:34.568 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.569 get_next(/interface/Multilink) = false
+21-Jul-2019::11:28:34.569 maapi_get_next(): done
+21-Jul-2019::11:28:34.572 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.573 get_next(/interface/Serial) = false
+21-Jul-2019::11:28:34.573 maapi_get_next(): done
+21-Jul-2019::11:28:34.576 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.578 get_next(/interface/Virtual-Template) = false
+21-Jul-2019::11:28:34.578 maapi_get_next(): done
+21-Jul-2019::11:28:34.580 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.581 get_next(/route-map) = false
+21-Jul-2019::11:28:34.581 maapi_get_next(): done
+21-Jul-2019::11:28:34.583 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.584 get_next(/table-map) = false
+21-Jul-2019::11:28:34.585 maapi_get_next(): done
+21-Jul-2019::11:28:34.586 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.587 get_next(/class-map) = {a}
+21-Jul-2019::11:28:34.592 get_next(/class-map[name='a']) = {cmap1}
+21-Jul-2019::11:28:34.615 get_next(/class-map[name='cmap1']) = false
+21-Jul-2019::11:28:34.615 maapi_get_next(): done
+21-Jul-2019::11:28:34.617 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.618 get_next(/policy-map) = {a}
+21-Jul-2019::11:28:34.620 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.621 get_next(/policy-map[name='a']/class) = false
+21-Jul-2019::11:28:34.622 maapi_get_next(): done
+21-Jul-2019::11:28:34.622 get_next(/policy-map[name='a']) = {map1}
+21-Jul-2019::11:28:34.630 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.631 get_next(/policy-map[name='map1']/class) = {c1}
+21-Jul-2019::11:28:34.632 evaluating: /policy-map[name='map1']/class[name='c1']/policy: ../../type = 'inspect'
+21-Jul-2019::11:28:34.633 get_elem(/policy-map[name='map1']/type) = not_found
+21-Jul-2019::11:28:34.633 result: /policy-map[name='map1']/class[name='c1']/policy: false
+21-Jul-2019::11:28:34.634 evaluating: /policy-map[name='map1']/class[name='c1']/inspect-police: ../policy/action = 'inspect'
+21-Jul-2019::11:28:34.635 evaluating: /policy-map[name='map1']/class[name='c1']/policy: ../../type = 'inspect'
+21-Jul-2019::11:28:34.636 get_elem(/policy-map[name='map1']/type) = not_found
+21-Jul-2019::11:28:34.636 result: /policy-map[name='map1']/class[name='c1']/policy: false
+21-Jul-2019::11:28:34.637 exists(/policy-map[name='map1']/class[name='c1']/policy) = false
+21-Jul-2019::11:28:34.637 result: /policy-map[name='map1']/class[name='c1']/inspect-police: false
+21-Jul-2019::11:28:34.639 evaluating: /policy-map[name='map1']/class[name='c1']/policy: ../../type = 'inspect'
+21-Jul-2019::11:28:34.640 get_elem(/policy-map[name='map1']/type) = not_found
+21-Jul-2019::11:28:34.640 result: /policy-map[name='map1']/class[name='c1']/policy: false
+21-Jul-2019::11:28:34.641 evaluating: /policy-map[name='map1']/class[name='c1']/inspect-police: ../policy/action = 'inspect'
+21-Jul-2019::11:28:34.642 evaluating: /policy-map[name='map1']/class[name='c1']/policy: ../../type = 'inspect'
+21-Jul-2019::11:28:34.642 get_elem(/policy-map[name='map1']/type) = not_found
+21-Jul-2019::11:28:34.643 result: /policy-map[name='map1']/class[name='c1']/policy: false
+21-Jul-2019::11:28:34.643 exists(/policy-map[name='map1']/class[name='c1']/policy) = false
+21-Jul-2019::11:28:34.643 result: /policy-map[name='map1']/class[name='c1']/inspect-police: false
+21-Jul-2019::11:28:34.651 get_next(/policy-map[name='map1']/class[name='c1']) = false
+21-Jul-2019::11:28:34.651 maapi_get_next(): done
+21-Jul-2019::11:28:34.652 get_next(/policy-map[name='map1']) = false
+21-Jul-2019::11:28:34.652 maapi_get_next(): done
+21-Jul-2019::11:28:34.662 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.664 get_next(/tftp-server) = false
+21-Jul-2019::11:28:34.664 maapi_get_next(): done
+21-Jul-2019::11:28:34.667 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.668 get_next(/alarm-contact) = false
+21-Jul-2019::11:28:34.668 maapi_get_next(): done
+21-Jul-2019::11:28:34.674 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.675 get_next(/mpls/ldp/neighbor) = false
+21-Jul-2019::11:28:34.676 maapi_get_next(): done
+21-Jul-2019::11:28:34.678 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.679 get_next(/router/bgp) = {64512}
+21-Jul-2019::11:28:34.685 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.686 get_next(/router/bgp[as-no='64512']/distribute-list) = false
+21-Jul-2019::11:28:34.686 maapi_get_next(): done
+21-Jul-2019::11:28:34.688 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.689 get_next(/router/bgp[as-no='64512']/neighbor) = {1.2.3.4}
+21-Jul-2019::11:28:34.699 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.700 get_next(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/distribute-list) = false
+21-Jul-2019::11:28:34.700 maapi_get_next(): done
+21-Jul-2019::11:28:34.701 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.702 get_next(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/filter-list) = false
+21-Jul-2019::11:28:34.702 maapi_get_next(): done
+21-Jul-2019::11:28:34.704 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.705 get_next(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/prefix-list) = false
+21-Jul-2019::11:28:34.705 maapi_get_next(): done
+21-Jul-2019::11:28:34.706 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.707 get_next(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/route-map) = false
+21-Jul-2019::11:28:34.707 maapi_get_next(): done
+21-Jul-2019::11:28:34.707 get_next(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']) = {2.3.4.5}
+21-Jul-2019::11:28:34.713 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.714 get_next(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/distribute-list) = false
+21-Jul-2019::11:28:34.714 maapi_get_next(): done
+21-Jul-2019::11:28:34.715 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.716 get_next(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/filter-list) = false
+21-Jul-2019::11:28:34.716 maapi_get_next(): done
+21-Jul-2019::11:28:34.717 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.718 get_next(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/prefix-list) = false
+21-Jul-2019::11:28:34.718 maapi_get_next(): done
+21-Jul-2019::11:28:34.719 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.720 get_next(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/route-map) = false
+21-Jul-2019::11:28:34.720 maapi_get_next(): done
+21-Jul-2019::11:28:34.721 get_next(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']) = false
+21-Jul-2019::11:28:34.721 maapi_get_next(): done
+21-Jul-2019::11:28:34.722 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.723 get_next(/router/bgp[as-no='64512']/network) = false
+21-Jul-2019::11:28:34.723 maapi_get_next(): done
+21-Jul-2019::11:28:34.725 get_next(/router/bgp[as-no='64512']) = false
+21-Jul-2019::11:28:34.726 maapi_get_next(): done
+21-Jul-2019::11:28:34.727 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.728 get_next(/router/ospfv3) = false
+21-Jul-2019::11:28:34.728 maapi_get_next(): done
+21-Jul-2019::11:28:34.729 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.730 get_next(/router/ospf) = false
+21-Jul-2019::11:28:34.730 maapi_get_next(): done
+21-Jul-2019::11:28:34.733 evaluating: /router/rip/disable: ../passive-interface/default
+21-Jul-2019::11:28:34.734 exists(/router/rip/passive-interface/default) = false
+21-Jul-2019::11:28:34.734 result: /router/rip/disable: false
+21-Jul-2019::11:28:34.737 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:34.737 get_next(/voice-card) = false
+21-Jul-2019::11:28:34.737 maapi_get_next(): done
+21-Jul-2019::11:28:35.147 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.149 get_next(/username) = false
+21-Jul-2019::11:28:35.149 maapi_get_next(): done
+21-Jul-2019::11:28:35.151 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.152 get_next(/controller) = false
+21-Jul-2019::11:28:35.152 maapi_get_next(): done
+21-Jul-2019::11:28:35.185 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.195 get_next(/ip/vrf) = {my-forward}
+21-Jul-2019::11:28:35.198 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.198 get_next(/ip/vrf[name='my-forward']/route-target) = false
+21-Jul-2019::11:28:35.199 maapi_get_next(): done
+21-Jul-2019::11:28:35.199 get_next(/ip/vrf[name='my-forward']) = false
+21-Jul-2019::11:28:35.199 maapi_get_next(): done
+21-Jul-2019::11:28:35.200 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.201 get_next(/ip/community-list/number-standard) = {1}
+21-Jul-2019::11:28:35.202 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.203 get_next(/ip/community-list/number-standard[no='1']/permit/permit-list) = false
+21-Jul-2019::11:28:35.203 maapi_get_next(): done
+21-Jul-2019::11:28:35.204 get_next(/ip/community-list/number-standard[no='1']) = {2}
+21-Jul-2019::11:28:35.205 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.206 get_next(/ip/community-list/number-standard[no='2']/deny/deny-list) = false
+21-Jul-2019::11:28:35.206 maapi_get_next(): done
+21-Jul-2019::11:28:35.207 get_next(/ip/community-list/number-standard[no='2']) = false
+21-Jul-2019::11:28:35.207 maapi_get_next(): done
+21-Jul-2019::11:28:35.209 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.210 get_next(/ip/community-list/number-expanded) = false
+21-Jul-2019::11:28:35.210 maapi_get_next(): done
+21-Jul-2019::11:28:35.211 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.213 get_next(/ip/community-list/expanded) = false
+21-Jul-2019::11:28:35.213 maapi_get_next(): done
+21-Jul-2019::11:28:35.218 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.218 get_next(/ip/community-list/standard) = {s}
+21-Jul-2019::11:28:35.219 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.220 get_next(/ip/community-list/standard[name='s']/permit/permit-list) = false
+21-Jul-2019::11:28:35.220 maapi_get_next(): done
+21-Jul-2019::11:28:35.220 get_next(/ip/community-list/standard[name='s']) = false
+21-Jul-2019::11:28:35.220 maapi_get_next(): done
+21-Jul-2019::11:28:35.224 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.225 get_next(/interface/Embedded-Service-Engine) = false
+21-Jul-2019::11:28:35.226 maapi_get_next(): done
+21-Jul-2019::11:28:35.231 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.232 get_next(/interface/FastEthernet) = {1/0}
+21-Jul-2019::11:28:35.232 evaluating: /interface/FastEthernet[name='1/0']/fair-queue-conf: not(../name[contains(.,'.')])
+21-Jul-2019::11:28:35.233 result: /interface/FastEthernet[name='1/0']/fair-queue-conf: true
+21-Jul-2019::11:28:35.238 evaluating: /interface/FastEthernet[name='1/0']/xconnect/manual: ../encapsulation = 'l2tpv3'
+21-Jul-2019::11:28:35.239 get_elem(/interface/FastEthernet[name='1/0']/xconnect/encapsulation) = not_found
+21-Jul-2019::11:28:35.239 result: /interface/FastEthernet[name='1/0']/xconnect/manual: false
+21-Jul-2019::11:28:35.250 get_next(/interface/FastEthernet[name='1/0']) = false
+21-Jul-2019::11:28:35.250 maapi_get_next(): done
+21-Jul-2019::11:28:35.253 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.255 get_next(/interface/GigabitEthernet) = false
+21-Jul-2019::11:28:35.255 maapi_get_next(): done
+21-Jul-2019::11:28:35.258 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.259 get_next(/interface/TenGigabitEthernet) = false
+21-Jul-2019::11:28:35.259 maapi_get_next(): done
+21-Jul-2019::11:28:35.261 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.262 get_next(/interface/Loopback) = {0}
+21-Jul-2019::11:28:35.263 evaluating: /interface/Loopback[name='0']/fair-queue-conf: not(../name[contains(.,'.')])
+21-Jul-2019::11:28:35.263 result: /interface/Loopback[name='0']/fair-queue-conf: true
+21-Jul-2019::11:28:35.274 get_next(/interface/Loopback[name='0']) = false
+21-Jul-2019::11:28:35.274 maapi_get_next(): done
+21-Jul-2019::11:28:35.277 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.278 get_next(/interface/Port-channel) = false
+21-Jul-2019::11:28:35.278 maapi_get_next(): done
+21-Jul-2019::11:28:35.281 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.282 get_next(/interface/Vlan) = false
+21-Jul-2019::11:28:35.282 maapi_get_next(): done
+21-Jul-2019::11:28:35.285 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.286 get_next(/interface/Group-Async) = false
+21-Jul-2019::11:28:35.286 maapi_get_next(): done
+21-Jul-2019::11:28:35.289 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.290 get_next(/interface/Multilink) = false
+21-Jul-2019::11:28:35.290 maapi_get_next(): done
+21-Jul-2019::11:28:35.292 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.293 get_next(/interface/Serial) = false
+21-Jul-2019::11:28:35.294 maapi_get_next(): done
+21-Jul-2019::11:28:35.297 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.298 get_next(/interface/Virtual-Template) = false
+21-Jul-2019::11:28:35.298 maapi_get_next(): done
+21-Jul-2019::11:28:35.299 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.300 get_next(/route-map) = false
+21-Jul-2019::11:28:35.300 maapi_get_next(): done
+21-Jul-2019::11:28:35.301 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.302 get_next(/table-map) = false
+21-Jul-2019::11:28:35.303 maapi_get_next(): done
+21-Jul-2019::11:28:35.306 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.307 get_next(/class-map) = {a}
+21-Jul-2019::11:28:35.313 get_next(/class-map[name='a']) = {cmap1}
+21-Jul-2019::11:28:35.333 get_next(/class-map[name='cmap1']) = false
+21-Jul-2019::11:28:35.333 maapi_get_next(): done
+21-Jul-2019::11:28:35.334 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.335 get_next(/policy-map) = {a}
+21-Jul-2019::11:28:35.337 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.338 get_next(/policy-map[name='a']/class) = false
+21-Jul-2019::11:28:35.338 maapi_get_next(): done
+21-Jul-2019::11:28:35.339 get_next(/policy-map[name='a']) = {map1}
+21-Jul-2019::11:28:35.347 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.348 get_next(/policy-map[name='map1']/class) = {c1}
+21-Jul-2019::11:28:35.349 evaluating: /policy-map[name='map1']/class[name='c1']/policy: ../../type = 'inspect'
+21-Jul-2019::11:28:35.349 get_elem(/policy-map[name='map1']/type) = not_found
+21-Jul-2019::11:28:35.350 result: /policy-map[name='map1']/class[name='c1']/policy: false
+21-Jul-2019::11:28:35.350 evaluating: /policy-map[name='map1']/class[name='c1']/inspect-police: ../policy/action = 'inspect'
+21-Jul-2019::11:28:35.351 evaluating: /policy-map[name='map1']/class[name='c1']/policy: ../../type = 'inspect'
+21-Jul-2019::11:28:35.352 get_elem(/policy-map[name='map1']/type) = not_found
+21-Jul-2019::11:28:35.352 result: /policy-map[name='map1']/class[name='c1']/policy: false
+21-Jul-2019::11:28:35.353 exists(/policy-map[name='map1']/class[name='c1']/policy) = false
+21-Jul-2019::11:28:35.353 result: /policy-map[name='map1']/class[name='c1']/inspect-police: false
+21-Jul-2019::11:28:35.355 evaluating: /policy-map[name='map1']/class[name='c1']/policy: ../../type = 'inspect'
+21-Jul-2019::11:28:35.356 get_elem(/policy-map[name='map1']/type) = not_found
+21-Jul-2019::11:28:35.356 result: /policy-map[name='map1']/class[name='c1']/policy: false
+21-Jul-2019::11:28:35.357 evaluating: /policy-map[name='map1']/class[name='c1']/inspect-police: ../policy/action = 'inspect'
+21-Jul-2019::11:28:35.357 evaluating: /policy-map[name='map1']/class[name='c1']/policy: ../../type = 'inspect'
+21-Jul-2019::11:28:35.358 get_elem(/policy-map[name='map1']/type) = not_found
+21-Jul-2019::11:28:35.358 result: /policy-map[name='map1']/class[name='c1']/policy: false
+21-Jul-2019::11:28:35.358 exists(/policy-map[name='map1']/class[name='c1']/policy) = false
+21-Jul-2019::11:28:35.358 result: /policy-map[name='map1']/class[name='c1']/inspect-police: false
+21-Jul-2019::11:28:35.363 get_next(/policy-map[name='map1']/class[name='c1']) = false
+21-Jul-2019::11:28:35.364 maapi_get_next(): done
+21-Jul-2019::11:28:35.364 get_next(/policy-map[name='map1']) = false
+21-Jul-2019::11:28:35.364 maapi_get_next(): done
+21-Jul-2019::11:28:35.379 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.380 get_next(/tftp-server) = false
+21-Jul-2019::11:28:35.380 maapi_get_next(): done
+21-Jul-2019::11:28:35.384 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.385 get_next(/alarm-contact) = false
+21-Jul-2019::11:28:35.385 maapi_get_next(): done
+21-Jul-2019::11:28:35.396 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.397 get_next(/mpls/ldp/neighbor) = false
+21-Jul-2019::11:28:35.398 maapi_get_next(): done
+21-Jul-2019::11:28:35.400 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.401 get_next(/router/bgp) = {64512}
+21-Jul-2019::11:28:35.408 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.409 get_next(/router/bgp[as-no='64512']/distribute-list) = false
+21-Jul-2019::11:28:35.410 maapi_get_next(): done
+21-Jul-2019::11:28:35.412 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.413 get_next(/router/bgp[as-no='64512']/neighbor) = {1.2.3.4}
+21-Jul-2019::11:28:35.425 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.427 get_next(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/distribute-list) = false
+21-Jul-2019::11:28:35.427 maapi_get_next(): done
+21-Jul-2019::11:28:35.428 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.429 get_next(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/filter-list) = false
+21-Jul-2019::11:28:35.429 maapi_get_next(): done
+21-Jul-2019::11:28:35.431 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.432 get_next(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/prefix-list) = false
+21-Jul-2019::11:28:35.432 maapi_get_next(): done
+21-Jul-2019::11:28:35.433 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.434 get_next(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']/route-map) = false
+21-Jul-2019::11:28:35.434 maapi_get_next(): done
+21-Jul-2019::11:28:35.435 get_next(/router/bgp[as-no='64512']/neighbor[id='1.2.3.4']) = {2.3.4.5}
+21-Jul-2019::11:28:35.440 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.441 get_next(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/distribute-list) = false
+21-Jul-2019::11:28:35.441 maapi_get_next(): done
+21-Jul-2019::11:28:35.442 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.443 get_next(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/filter-list) = false
+21-Jul-2019::11:28:35.444 maapi_get_next(): done
+21-Jul-2019::11:28:35.445 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.446 get_next(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/prefix-list) = false
+21-Jul-2019::11:28:35.446 maapi_get_next(): done
+21-Jul-2019::11:28:35.446 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.447 get_next(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']/route-map) = false
+21-Jul-2019::11:28:35.448 maapi_get_next(): done
+21-Jul-2019::11:28:35.448 get_next(/router/bgp[as-no='64512']/neighbor[id='2.3.4.5']) = false
+21-Jul-2019::11:28:35.449 maapi_get_next(): done
+21-Jul-2019::11:28:35.450 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.451 get_next(/router/bgp[as-no='64512']/network) = false
+21-Jul-2019::11:28:35.451 maapi_get_next(): done
+21-Jul-2019::11:28:35.453 get_next(/router/bgp[as-no='64512']) = false
+21-Jul-2019::11:28:35.453 maapi_get_next(): done
+21-Jul-2019::11:28:35.454 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.456 get_next(/router/ospfv3) = false
+21-Jul-2019::11:28:35.456 maapi_get_next(): done
+21-Jul-2019::11:28:35.457 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.458 get_next(/router/ospf) = false
+21-Jul-2019::11:28:35.458 maapi_get_next(): done
+21-Jul-2019::11:28:35.461 evaluating: /router/rip/disable: ../passive-interface/default
+21-Jul-2019::11:28:35.462 exists(/router/rip/passive-interface/default) = false
+21-Jul-2019::11:28:35.462 result: /router/rip/disable: false
+21-Jul-2019::11:28:35.468 maapi_get_next(): evaluating: .
+21-Jul-2019::11:28:35.469 get_next(/voice-card) = false
+21-Jul-2019::11:28:35.470 maapi_get_next(): done

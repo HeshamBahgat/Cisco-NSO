@@ -1,51 +1,65 @@
-<INFO> 21-Jul-2019::00:38:19.549 kali confd[23411]: confd embedded apps in early_phase0:
+<INFO> 21-Jul-2019::11:04:00.417 kali confd[2279]: confd embedded apps in early_phase0:
 	[]
-<INFO> 21-Jul-2019::00:38:20.993 kali confd[23411]: confd mmap_schema handle_info got msg: timeout
-<INFO> 21-Jul-2019::00:38:21.100 kali confd[23411]: confd embedded apps in phase0:
+<INFO> 21-Jul-2019::11:04:02.147 kali confd[2279]: confd mmap_schema handle_info got msg: timeout
+<INFO> 21-Jul-2019::11:04:02.282 kali confd[2279]: confd embedded apps in phase0:
 	[]
-<INFO> 21-Jul-2019::00:38:22.074 kali confd[23411]: devel-cdb init files found in ./cdb: aaa_init.xml, ios.xml
-<INFO> 21-Jul-2019::00:38:22.431 kali confd[23411]: devel-cdb Compacted CDB journal file: 7 ms (176 nodes in memory, disk size 2.14 KiB -> 2.06 KiB)
-<INFO> 21-Jul-2019::00:38:22.433 kali confd[23411]: confd embedded apps in phase1:
+<INFO> 21-Jul-2019::11:04:03.138 kali confd[2279]: devel-cdb init files found in ./cdb: aaa_init.xml, ios.xml
+<INFO> 21-Jul-2019::11:04:03.519 kali confd[2279]: devel-cdb Compacted CDB journal file: 8 ms (176 nodes in memory, disk size 2.14 KiB -> 2.06 KiB)
+<INFO> 21-Jul-2019::11:04:03.523 kali confd[2279]: confd embedded apps in phase1:
 	[]
-<INFO> 21-Jul-2019::00:38:22.634 kali confd[23411]: confd embedded apps in phase1_delayed:
+<INFO> 21-Jul-2019::11:04:03.742 kali confd[2279]: confd embedded apps in phase1_delayed:
 	[]
-<INFO> 21-Jul-2019::00:38:22.658 kali confd[23411]: confd embedded apps in phase2:
+<INFO> 21-Jul-2019::11:04:03.777 kali confd[2279]: confd embedded apps in phase2:
 	[]
-<ERR> 21-Jul-2019::00:44:44.564 kali confd[23411]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 5010 -i 0 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 27 -t ZHVtYg== -U 13 -w 140 -h 24 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== maapi LS1jbGlzZXQgc2NyZWVuLWxlbmd0aCAiMCI=: warning: group not found admin
-
-<ERR> 21-Jul-2019::00:44:44.565 kali confd[23411]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 5010 -i 0 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 27 -t ZHVtYg== -U 13 -w 140 -h 24 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== maapi LS1jbGlzZXQgc2NyZWVuLWxlbmd0aCAiMCI=: warning: failed to change working directory /var/confd/homes/admin
-
-<ERR> 21-Jul-2019::00:44:44.642 kali confd[23411]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 5010 -i 1 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 27 -t ZHVtYg== -U 13 -w 140 -h 0 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== /bin/echo IjAi: warning: group not found admin
+<INFO> 21-Jul-2019::11:18:36.232 kali confd[2279]: confd encryptedStrings keys provided from config
+<ERR> 21-Jul-2019::11:18:36.491 kali confd[2279]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 5010 -i 0 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 49 -t ZHVtYg== -U 13 -w 140 -h 24 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== maapi LS1jbGlzZXQgc2NyZWVuLWxlbmd0aCAiMCI=: warning: group not found admin
 warning: failed to change working directory /var/confd/homes/admin
 
-<ERR> 21-Jul-2019::00:44:44.722 kali confd[23411]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdwrapper -I 127.0.0.1 -p 5010 -i 2 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 27 -t ZHVtYg== -U 13 -w 140 -h 0 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== ./show_version.sh: warning: group not found admin
+<ERR> 21-Jul-2019::11:18:36.558 kali confd[2279]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 5010 -i 1 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 49 -t ZHVtYg== -U 13 -w 140 -h 0 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== /bin/echo IjAi: warning: group not found admin
+warning: failed to change working directory /var/confd/homes/admin
+
+<ERR> 21-Jul-2019::11:18:36.657 kali confd[2279]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdwrapper -I 127.0.0.1 -p 5010 -i 2 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 49 -t ZHVtYg== -U 13 -w 140 -h 0 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== ./show_version.sh: warning: group not found admin
 error: (non-fatal) failed to change working directory /var/confd/homes/admin
 
-<INFO> 21-Jul-2019::00:44:45.283 kali confd[23411]: confd encryptedStrings keys provided from config
-<ERR> 21-Jul-2019::01:13:30.988 kali confd[23411]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 5010 -i 3 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 28 -t ZHVtYg== -U 14 -w 140 -h 24 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== maapi LS1jbGlzZXQgc2NyZWVuLWxlbmd0aCAiMCI=: warning: group not found admin
+<ERR> 21-Jul-2019::11:28:33.919 kali confd[2279]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 5010 -i 3 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 50 -t ZHVtYg== -U 14 -w 140 -h 24 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== maapi LS1jbGlzZXQgc2NyZWVuLWxlbmd0aCAiMCI=: warning: group not found admin
 warning: failed to change working directory /var/confd/homes/admin
 
-<ERR> 21-Jul-2019::01:13:31.271 kali confd[23411]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 5010 -i 4 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 28 -t ZHVtYg== -U 14 -w 140 -h 0 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== /bin/echo IjAi: warning: group not found admin
+<ERR> 21-Jul-2019::11:28:34.016 kali confd[2279]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 5010 -i 4 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 50 -t ZHVtYg== -U 14 -w 140 -h 0 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== /bin/echo IjAi: warning: group not found admin
 warning: failed to change working directory /var/confd/homes/admin
 
-<ERR> 21-Jul-2019::01:13:34.715 kali confd[23411]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdwrapper -I 127.0.0.1 -p 5010 -i 5 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 28 -t ZHVtYg== -U 14 -w 140 -h 0 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== ./show_version.sh: warning: group not found admin
+<ERR> 21-Jul-2019::11:28:34.087 kali confd[2279]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdwrapper -I 127.0.0.1 -p 5010 -i 5 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 50 -t ZHVtYg== -U 14 -w 140 -h 0 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== ./show_version.sh: warning: group not found admin
 error: (non-fatal) failed to change working directory /var/confd/homes/admin
 
-<ERR> 21-Jul-2019::01:15:04.550 kali confd[23411]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 5010 -i 6 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 29 -t ZHVtYg== -U 15 -w 140 -h 24 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== maapi LS1jbGlzZXQgc2NyZWVuLWxlbmd0aCAiMCI=: warning: group not found admin
+<INFO> 22-Jul-2019::10:18:45.449 kali confd[4608]: confd embedded apps in early_phase0:
+	[]
+<INFO> 22-Jul-2019::10:18:47.075 kali confd[4608]: confd mmap_schema handle_info got msg: timeout
+<INFO> 22-Jul-2019::10:18:47.192 kali confd[4608]: confd embedded apps in phase0:
+	[]
+<INFO> 22-Jul-2019::10:18:47.414 kali confd[4608]: devel-cdb Loaded schema file: ./cdb/C.cdb (v5 from ConfD version 7.1)
+<INFO> 22-Jul-2019::10:18:47.522 kali confd[4608]: devel-cdb Loaded configuration from ./cdb/A.cdb (2.06 KiB data, 1 transaction in 0.018s)
+<INFO> 22-Jul-2019::10:18:47.523 kali confd[4608]: devel-cdb Loaded oper data from ./cdb/O.cdb (4 bytes data in 0.007s)
+<INFO> 22-Jul-2019::10:18:47.727 kali confd[4608]: confd embedded apps in phase1:
+	[]
+<INFO> 22-Jul-2019::10:18:47.927 kali confd[4608]: confd embedded apps in phase1_delayed:
+	[]
+<INFO> 22-Jul-2019::10:18:47.959 kali confd[4608]: confd embedded apps in phase2:
+	[]
+<INFO> 22-Jul-2019::10:19:09.582 kali confd[4608]: confd encryptedStrings keys provided from config
+<ERR> 22-Jul-2019::10:19:09.731 kali confd[4608]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 5010 -i 0 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 60 -t ZHVtYg== -U 13 -w 140 -h 24 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== maapi LS1jbGlzZXQgc2NyZWVuLWxlbmd0aCAiMCI=: warning: group not found admin
 warning: failed to change working directory /var/confd/homes/admin
 
-<ERR> 21-Jul-2019::01:15:04.626 kali confd[23411]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 5010 -i 7 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 29 -t ZHVtYg== -U 15 -w 140 -h 0 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== /bin/echo IjAi: warning: group not found admin
+<ERR> 22-Jul-2019::10:19:09.771 kali confd[4608]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 5010 -i 1 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 60 -t ZHVtYg== -U 13 -w 140 -h 0 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== /bin/echo IjAi: warning: group not found admin
 warning: failed to change working directory /var/confd/homes/admin
 
-<ERR> 21-Jul-2019::01:15:04.660 kali confd[23411]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdwrapper -I 127.0.0.1 -p 5010 -i 8 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 29 -t ZHVtYg== -U 15 -w 140 -h 0 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== ./show_version.sh: warning: group not found admin
+<ERR> 22-Jul-2019::10:19:09.920 kali confd[4608]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdwrapper -I 127.0.0.1 -p 5010 -i 2 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 60 -t ZHVtYg== -U 13 -w 140 -h 0 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== ./show_version.sh: warning: group not found admin
 error: (non-fatal) failed to change working directory /var/confd/homes/admin
 
-<ERR> 21-Jul-2019::01:16:23.879 kali confd[23411]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 5010 -i 9 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 30 -t ZHVtYg== -U 16 -w 140 -h 24 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== maapi LS1jbGlzZXQgc2NyZWVuLWxlbmd0aCAiMCI=: warning: group not found admin
+<ERR> 22-Jul-2019::10:21:45.814 kali confd[4608]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 5010 -i 3 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 61 -t ZHVtYg== -U 14 -w 140 -h 24 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== maapi LS1jbGlzZXQgc2NyZWVuLWxlbmd0aCAiMCI=: warning: group not found admin
 warning: failed to change working directory /var/confd/homes/admin
 
-<ERR> 21-Jul-2019::01:16:23.921 kali confd[23411]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 5010 -i 10 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 30 -t ZHVtYg== -U 16 -w 140 -h 0 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== /bin/echo IjAi: warning: group not found admin
+<ERR> 22-Jul-2019::10:21:45.853 kali confd[4608]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdptywrapper -I 127.0.0.1 -p 5010 -i 4 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 61 -t ZHVtYg== -U 14 -w 140 -h 0 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== /bin/echo IjAi: warning: group not found admin
 warning: failed to change working directory /var/confd/homes/admin
 
-<ERR> 21-Jul-2019::01:16:23.983 kali confd[23411]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdwrapper -I 127.0.0.1 -p 5010 -i 11 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 30 -t ZHVtYg== -U 16 -w 140 -h 0 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== ./show_version.sh: warning: group not found admin
+<ERR> 22-Jul-2019::10:21:45.918 kali confd[4608]: confd osCommand error: /root/nso-5.1/netsim/confd/lib/confd/lib/core/confd/priv/cmdwrapper -I 127.0.0.1 -p 5010 -i 5 -H L3Zhci9jb25mZC9ob21lcy9hZG1pbg== -N YWRtaW4= -n YWRtaW4= -m 61 -t ZHVtYg== -U 14 -w 140 -h 0 -c L3Zhci9jb25mZC9ob21lcy9hZG1pbg== ./show_version.sh: warning: group not found admin
 error: (non-fatal) failed to change working directory /var/confd/homes/admin
 

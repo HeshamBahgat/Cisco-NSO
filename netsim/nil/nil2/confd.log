@@ -1,71 +1,148 @@
-<INFO> 21-Jul-2019::00:38:27.899 kali confd[23453]: - Writing daemon log to /root/nil_NSO_exercise/netsim/nil/nil2/confd.log
-<INFO> 21-Jul-2019::00:38:27.380 kali confd[23453]: - Enabling daemon log
-<INFO> 21-Jul-2019::00:38:27.396 kali confd[23453]: - Starting ConfD vsn: 7.1
-<DEBUG> 21-Jul-2019::00:38:27.490 kali confd[23453]: - Loading file confd.fxs
-<DEBUG> 21-Jul-2019::00:38:27.545 kali confd[23453]: - Loading file ietf-yang-types.fxs
-<DEBUG> 21-Jul-2019::00:38:27.547 kali confd[23453]: - Loading file ietf-inet-types.fxs
-<DEBUG> 21-Jul-2019::00:38:27.549 kali confd[23453]: - Loading file ietf-yang-library.fxs
-<DEBUG> 21-Jul-2019::00:38:27.590 kali confd[23453]: - Loading file ietf-netconf.fxs
-<DEBUG> 21-Jul-2019::00:38:27.596 kali confd[23453]: - Loading file ietf-netconf-with-defaults.fxs
-<DEBUG> 21-Jul-2019::00:38:27.598 kali confd[23453]: - Loading file netconf_netmod.fxs
-<DEBUG> 21-Jul-2019::00:38:27.600 kali confd[23453]: - Loading file ietf-restconf.fxs
-<DEBUG> 21-Jul-2019::00:38:27.602 kali confd[23453]: - Loading file ietf-yang-patch.fxs
-<DEBUG> 21-Jul-2019::00:38:27.618 kali confd[23453]: - Loading file tailf-rest-error.fxs
-<DEBUG> 21-Jul-2019::00:38:27.620 kali confd[23453]: - Loading file tailf-rest-query.fxs
-<DEBUG> 21-Jul-2019::00:38:27.623 kali confd[23453]: - Loading file confd_cfg.fxs
-<DEBUG> 21-Jul-2019::00:38:27.688 kali confd[23453]: - Loading file config.fxs
-<DEBUG> 21-Jul-2019::00:38:27.690 kali confd[23453]: - Loading file netconf_notification.fxs
-<DEBUG> 21-Jul-2019::00:38:27.691 kali confd[23453]: - Loading file netconf_actions.fxs
-<DEBUG> 21-Jul-2019::00:38:27.692 kali confd[23453]: - Loading file yang.fxs
-<DEBUG> 21-Jul-2019::00:38:27.694 kali confd[23453]: - Loading file tailf_netconf.fxs
-<DEBUG> 21-Jul-2019::00:38:27.695 kali confd[23453]: - Loading file cli-builtin.fxs
-<DEBUG> 21-Jul-2019::00:38:27.707 kali confd[23453]: - Loading file confd.conf
-<INFO> 21-Jul-2019::00:38:27.711 kali confd[23453]: - Consulting daemon configuration file confd.conf
-<INFO> 21-Jul-2019::00:38:27.869 kali confd[23453]: - Writing audit log to /root/nil_NSO_exercise/netsim/nil/nil2/audit.log
-<INFO> 21-Jul-2019::00:38:27.869 kali confd[23453]: - Enabling audit log
-<INFO> 21-Jul-2019::00:38:27.882 kali confd[23453]: - Writing NETCONF log to /root/nil_NSO_exercise/netsim/nil/nil2/netconf.log
-<INFO> 21-Jul-2019::00:38:27.882 kali confd[23453]: - Enabling NETCONF log
-<INFO> 21-Jul-2019::00:38:27.897 kali confd[23453]: - Writing developer log to /root/nil_NSO_exercise/netsim/nil/nil2/devel.log
-<INFO> 21-Jul-2019::00:38:27.897 kali confd[23453]: - Enabling developer log
-<INFO> 21-Jul-2019::00:38:27.898 kali confd[23453]: - Writing XPath trace log to /root/nil_NSO_exercise/netsim/nil/nil2/xpath.trace
-<INFO> 21-Jul-2019::00:38:27.898 kali confd[23453]: - Enabling XPath trace log
-<INFO> 21-Jul-2019::00:38:27.961 kali confd[23453]: - Enabling error log
-<INFO> 21-Jul-2019::00:38:27.961 kali confd[23453]: - Writing error log to ./logs/confderr.log
-<INFO> 21-Jul-2019::00:38:27.994 kali confd[23453]: - Daemon logging started
-<DEBUG> 21-Jul-2019::00:38:28.028 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/ietf-netconf-monitoring.fxs
-<DEBUG> 21-Jul-2019::00:38:28.031 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-common-monitoring.fxs
-<DEBUG> 21-Jul-2019::00:38:28.033 kali confd[23453]: - Loading file ./ietf-netconf-acm.fxs
-<DEBUG> 21-Jul-2019::00:38:28.036 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-common-query.fxs
-<DEBUG> 21-Jul-2019::00:38:28.037 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-transactions.fxs
-<DEBUG> 21-Jul-2019::00:38:28.039 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-common.fxs
-<DEBUG> 21-Jul-2019::00:38:28.041 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/iana-crypt-hash.fxs
-<DEBUG> 21-Jul-2019::00:38:28.042 kali confd[23453]: - Loading file ./tailf-ned-cisco-ios.fxs
-<DEBUG> 21-Jul-2019::00:38:28.443 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/ietf-restconf-monitoring.fxs
-<DEBUG> 21-Jul-2019::00:38:28.446 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/ietf-netconf-notifications.fxs
-<DEBUG> 21-Jul-2019::00:38:28.449 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/ietf-netconf-partial-lock.fxs
-<DEBUG> 21-Jul-2019::00:38:28.450 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-xsd-types.fxs
-<DEBUG> 21-Jul-2019::00:38:28.452 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-monitoring.fxs
-<DEBUG> 21-Jul-2019::00:38:28.456 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-confd-monitoring.fxs
-<DEBUG> 21-Jul-2019::00:38:28.464 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-acm.fxs
-<DEBUG> 21-Jul-2019::00:38:28.467 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-webui.fxs
-<DEBUG> 21-Jul-2019::00:38:28.470 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-rollback.fxs
-<DEBUG> 21-Jul-2019::00:38:28.472 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-progress.fxs
-<DEBUG> 21-Jul-2019::00:38:28.475 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-with-transaction-id.fxs
-<DEBUG> 21-Jul-2019::00:38:28.477 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-rollback.fxs
-<DEBUG> 21-Jul-2019::00:38:28.480 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-query.fxs
-<DEBUG> 21-Jul-2019::00:38:28.483 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-inactive.fxs
-<DEBUG> 21-Jul-2019::00:38:28.485 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-forward.fxs
-<DEBUG> 21-Jul-2019::00:38:28.487 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-extensions.fxs
-<DEBUG> 21-Jul-2019::00:38:28.490 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-kicker.fxs
-<DEBUG> 21-Jul-2019::00:38:28.493 kali confd[23453]: - Loading file ./aaa.fxs
-<DEBUG> 21-Jul-2019::00:38:28.496 kali confd[23453]: - Skipping file /root/nso-5.1/netsim/confd/etc/confd/ietf-netconf-acm.fxs: namespace already loaded
-<DEBUG> 21-Jul-2019::00:38:28.497 kali confd[23453]: - Skipping file /root/nso-5.1/netsim/confd/etc/confd/tailf-aaa.fxs: namespace already loaded
-<DEBUG> 21-Jul-2019::00:38:28.723 kali confd[23453]: - Loading file ./confd.c.ccl
-<DEBUG> 21-Jul-2019::00:38:28.793 kali confd[23453]: - Loading file ./confd.i.ccl
-<DEBUG> 21-Jul-2019::00:38:28.794 kali confd[23453]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/confd.ccl
-<INFO> 21-Jul-2019::00:38:29.268 kali confd[23453]: - Starting to listen for Internal IPC on 127.0.0.1:5012
-<INFO> 21-Jul-2019::00:38:30.415 kali confd[23453]: - CDB load: processing file: ./cdb/aaa_init.xml
-<INFO> 21-Jul-2019::00:38:30.506 kali confd[23453]: - CDB load: processing file: ./cdb/ios.xml
-<INFO> 21-Jul-2019::00:38:31.275 kali confd[23453]: - Starting to listen for NETCONF SSH on 0.0.0.0:12024
-<INFO> 21-Jul-2019::00:38:31.424 kali confd[23453]: - Starting to listen for CLI SSH on 0.0.0.0:10024
-<INFO> 21-Jul-2019::00:38:31.528 kali confd[23453]: - ConfD started vsn: 7.1
+<INFO> 21-Jul-2019::11:04:09.796 kali confd[2321]: - Writing daemon log to /root/nil_NSO_exercise/netsim/nil/nil2/confd.log
+<INFO> 21-Jul-2019::11:04:09.140 kali confd[2321]: - Enabling daemon log
+<INFO> 21-Jul-2019::11:04:09.180 kali confd[2321]: - Starting ConfD vsn: 7.1
+<DEBUG> 21-Jul-2019::11:04:09.292 kali confd[2321]: - Loading file confd.fxs
+<DEBUG> 21-Jul-2019::11:04:09.350 kali confd[2321]: - Loading file ietf-yang-types.fxs
+<DEBUG> 21-Jul-2019::11:04:09.353 kali confd[2321]: - Loading file ietf-inet-types.fxs
+<DEBUG> 21-Jul-2019::11:04:09.355 kali confd[2321]: - Loading file ietf-yang-library.fxs
+<DEBUG> 21-Jul-2019::11:04:09.391 kali confd[2321]: - Loading file ietf-netconf.fxs
+<DEBUG> 21-Jul-2019::11:04:09.395 kali confd[2321]: - Loading file ietf-netconf-with-defaults.fxs
+<DEBUG> 21-Jul-2019::11:04:09.398 kali confd[2321]: - Loading file netconf_netmod.fxs
+<DEBUG> 21-Jul-2019::11:04:09.399 kali confd[2321]: - Loading file ietf-restconf.fxs
+<DEBUG> 21-Jul-2019::11:04:09.402 kali confd[2321]: - Loading file ietf-yang-patch.fxs
+<DEBUG> 21-Jul-2019::11:04:09.416 kali confd[2321]: - Loading file tailf-rest-error.fxs
+<DEBUG> 21-Jul-2019::11:04:09.418 kali confd[2321]: - Loading file tailf-rest-query.fxs
+<DEBUG> 21-Jul-2019::11:04:09.421 kali confd[2321]: - Loading file confd_cfg.fxs
+<DEBUG> 21-Jul-2019::11:04:09.512 kali confd[2321]: - Loading file config.fxs
+<DEBUG> 21-Jul-2019::11:04:09.515 kali confd[2321]: - Loading file netconf_notification.fxs
+<DEBUG> 21-Jul-2019::11:04:09.518 kali confd[2321]: - Loading file netconf_actions.fxs
+<DEBUG> 21-Jul-2019::11:04:09.522 kali confd[2321]: - Loading file yang.fxs
+<DEBUG> 21-Jul-2019::11:04:09.524 kali confd[2321]: - Loading file tailf_netconf.fxs
+<DEBUG> 21-Jul-2019::11:04:09.529 kali confd[2321]: - Loading file cli-builtin.fxs
+<DEBUG> 21-Jul-2019::11:04:09.551 kali confd[2321]: - Loading file confd.conf
+<INFO> 21-Jul-2019::11:04:09.561 kali confd[2321]: - Consulting daemon configuration file confd.conf
+<INFO> 21-Jul-2019::11:04:09.773 kali confd[2321]: - Writing audit log to /root/nil_NSO_exercise/netsim/nil/nil2/audit.log
+<INFO> 21-Jul-2019::11:04:09.773 kali confd[2321]: - Enabling audit log
+<INFO> 21-Jul-2019::11:04:09.784 kali confd[2321]: - Writing NETCONF log to /root/nil_NSO_exercise/netsim/nil/nil2/netconf.log
+<INFO> 21-Jul-2019::11:04:09.784 kali confd[2321]: - Enabling NETCONF log
+<INFO> 21-Jul-2019::11:04:09.795 kali confd[2321]: - Writing developer log to /root/nil_NSO_exercise/netsim/nil/nil2/devel.log
+<INFO> 21-Jul-2019::11:04:09.795 kali confd[2321]: - Enabling developer log
+<INFO> 21-Jul-2019::11:04:09.795 kali confd[2321]: - Writing XPath trace log to /root/nil_NSO_exercise/netsim/nil/nil2/xpath.trace
+<INFO> 21-Jul-2019::11:04:09.795 kali confd[2321]: - Enabling XPath trace log
+<INFO> 21-Jul-2019::11:04:09.876 kali confd[2321]: - Enabling error log
+<INFO> 21-Jul-2019::11:04:09.876 kali confd[2321]: - Writing error log to ./logs/confderr.log
+<INFO> 21-Jul-2019::11:04:09.904 kali confd[2321]: - Daemon logging started
+<DEBUG> 21-Jul-2019::11:04:09.939 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/ietf-netconf-monitoring.fxs
+<DEBUG> 21-Jul-2019::11:04:09.943 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-common-monitoring.fxs
+<DEBUG> 21-Jul-2019::11:04:09.946 kali confd[2321]: - Loading file ./ietf-netconf-acm.fxs
+<DEBUG> 21-Jul-2019::11:04:09.948 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-common-query.fxs
+<DEBUG> 21-Jul-2019::11:04:09.950 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-transactions.fxs
+<DEBUG> 21-Jul-2019::11:04:09.951 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-common.fxs
+<DEBUG> 21-Jul-2019::11:04:09.954 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/iana-crypt-hash.fxs
+<DEBUG> 21-Jul-2019::11:04:09.956 kali confd[2321]: - Loading file ./tailf-ned-cisco-ios.fxs
+<DEBUG> 21-Jul-2019::11:04:10.414 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/ietf-restconf-monitoring.fxs
+<DEBUG> 21-Jul-2019::11:04:10.417 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/ietf-netconf-notifications.fxs
+<DEBUG> 21-Jul-2019::11:04:10.421 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/ietf-netconf-partial-lock.fxs
+<DEBUG> 21-Jul-2019::11:04:10.423 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-xsd-types.fxs
+<DEBUG> 21-Jul-2019::11:04:10.425 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-monitoring.fxs
+<DEBUG> 21-Jul-2019::11:04:10.429 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-confd-monitoring.fxs
+<DEBUG> 21-Jul-2019::11:04:10.441 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-acm.fxs
+<DEBUG> 21-Jul-2019::11:04:10.445 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-webui.fxs
+<DEBUG> 21-Jul-2019::11:04:10.448 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-rollback.fxs
+<DEBUG> 21-Jul-2019::11:04:10.451 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-progress.fxs
+<DEBUG> 21-Jul-2019::11:04:10.455 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-with-transaction-id.fxs
+<DEBUG> 21-Jul-2019::11:04:10.457 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-rollback.fxs
+<DEBUG> 21-Jul-2019::11:04:10.460 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-query.fxs
+<DEBUG> 21-Jul-2019::11:04:10.464 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-inactive.fxs
+<DEBUG> 21-Jul-2019::11:04:10.466 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-forward.fxs
+<DEBUG> 21-Jul-2019::11:04:10.470 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-extensions.fxs
+<DEBUG> 21-Jul-2019::11:04:10.473 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-kicker.fxs
+<DEBUG> 21-Jul-2019::11:04:10.476 kali confd[2321]: - Loading file ./aaa.fxs
+<DEBUG> 21-Jul-2019::11:04:10.481 kali confd[2321]: - Skipping file /root/nso-5.1/netsim/confd/etc/confd/ietf-netconf-acm.fxs: namespace already loaded
+<DEBUG> 21-Jul-2019::11:04:10.481 kali confd[2321]: - Skipping file /root/nso-5.1/netsim/confd/etc/confd/tailf-aaa.fxs: namespace already loaded
+<DEBUG> 21-Jul-2019::11:04:10.803 kali confd[2321]: - Loading file ./confd.c.ccl
+<DEBUG> 21-Jul-2019::11:04:10.886 kali confd[2321]: - Loading file ./confd.i.ccl
+<DEBUG> 21-Jul-2019::11:04:10.888 kali confd[2321]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/confd.ccl
+<INFO> 21-Jul-2019::11:04:11.519 kali confd[2321]: - Starting to listen for Internal IPC on 127.0.0.1:5012
+<INFO> 21-Jul-2019::11:04:12.580 kali confd[2321]: - CDB load: processing file: ./cdb/aaa_init.xml
+<INFO> 21-Jul-2019::11:04:12.657 kali confd[2321]: - CDB load: processing file: ./cdb/ios.xml
+<INFO> 21-Jul-2019::11:04:13.133 kali confd[2321]: - Starting to listen for NETCONF SSH on 0.0.0.0:12024
+<INFO> 21-Jul-2019::11:04:13.283 kali confd[2321]: - Starting to listen for CLI SSH on 0.0.0.0:10024
+<INFO> 21-Jul-2019::11:04:13.387 kali confd[2321]: - ConfD started vsn: 7.1
+<INFO> 21-Jul-2019::12:06:29.710 kali confd[2321]: - ConfD stopping (confd --stop called by root in /root/nil_NSO_exercise/netsim/nil/nil2)
+<INFO> 21-Jul-2019::12:06:30.341 kali confd[2321]: - Stopping to listen for NETCONF SSH on 0.0.0.0:12024
+<INFO> 21-Jul-2019::12:06:31.071 kali confd[2321]: - Stopping to listen for Internal IPC on 127.0.0.1:5012
+<INFO> 21-Jul-2019::12:06:31.277 kali confd[2321]: - Daemon logging terminating, reason: shutdown
+<INFO> 22-Jul-2019::10:18:53.011 kali confd[4650]: - Writing daemon log to /root/nil_NSO_exercise/netsim/nil/nil2/confd.log
+<INFO> 22-Jul-2019::10:18:52.485 kali confd[4650]: - Enabling daemon log
+<INFO> 22-Jul-2019::10:18:52.500 kali confd[4650]: - Starting ConfD vsn: 7.1
+<DEBUG> 22-Jul-2019::10:18:52.584 kali confd[4650]: - Loading file confd.fxs
+<DEBUG> 22-Jul-2019::10:18:52.636 kali confd[4650]: - Loading file ietf-yang-types.fxs
+<DEBUG> 22-Jul-2019::10:18:52.637 kali confd[4650]: - Loading file ietf-inet-types.fxs
+<DEBUG> 22-Jul-2019::10:18:52.639 kali confd[4650]: - Loading file ietf-yang-library.fxs
+<DEBUG> 22-Jul-2019::10:18:52.674 kali confd[4650]: - Loading file ietf-netconf.fxs
+<DEBUG> 22-Jul-2019::10:18:52.678 kali confd[4650]: - Loading file ietf-netconf-with-defaults.fxs
+<DEBUG> 22-Jul-2019::10:18:52.683 kali confd[4650]: - Loading file netconf_netmod.fxs
+<DEBUG> 22-Jul-2019::10:18:52.684 kali confd[4650]: - Loading file ietf-restconf.fxs
+<DEBUG> 22-Jul-2019::10:18:52.686 kali confd[4650]: - Loading file ietf-yang-patch.fxs
+<DEBUG> 22-Jul-2019::10:18:52.703 kali confd[4650]: - Loading file tailf-rest-error.fxs
+<DEBUG> 22-Jul-2019::10:18:52.706 kali confd[4650]: - Loading file tailf-rest-query.fxs
+<DEBUG> 22-Jul-2019::10:18:52.709 kali confd[4650]: - Loading file confd_cfg.fxs
+<DEBUG> 22-Jul-2019::10:18:52.780 kali confd[4650]: - Loading file config.fxs
+<DEBUG> 22-Jul-2019::10:18:52.781 kali confd[4650]: - Loading file netconf_notification.fxs
+<DEBUG> 22-Jul-2019::10:18:52.782 kali confd[4650]: - Loading file netconf_actions.fxs
+<DEBUG> 22-Jul-2019::10:18:52.784 kali confd[4650]: - Loading file yang.fxs
+<DEBUG> 22-Jul-2019::10:18:52.785 kali confd[4650]: - Loading file tailf_netconf.fxs
+<DEBUG> 22-Jul-2019::10:18:52.786 kali confd[4650]: - Loading file cli-builtin.fxs
+<DEBUG> 22-Jul-2019::10:18:52.800 kali confd[4650]: - Loading file confd.conf
+<INFO> 22-Jul-2019::10:18:52.805 kali confd[4650]: - Consulting daemon configuration file confd.conf
+<INFO> 22-Jul-2019::10:18:52.981 kali confd[4650]: - Writing audit log to /root/nil_NSO_exercise/netsim/nil/nil2/audit.log
+<INFO> 22-Jul-2019::10:18:52.982 kali confd[4650]: - Enabling audit log
+<INFO> 22-Jul-2019::10:18:52.995 kali confd[4650]: - Writing NETCONF log to /root/nil_NSO_exercise/netsim/nil/nil2/netconf.log
+<INFO> 22-Jul-2019::10:18:52.995 kali confd[4650]: - Enabling NETCONF log
+<INFO> 22-Jul-2019::10:18:53.007 kali confd[4650]: - Writing developer log to /root/nil_NSO_exercise/netsim/nil/nil2/devel.log
+<INFO> 22-Jul-2019::10:18:53.007 kali confd[4650]: - Enabling developer log
+<INFO> 22-Jul-2019::10:18:53.008 kali confd[4650]: - Writing XPath trace log to /root/nil_NSO_exercise/netsim/nil/nil2/xpath.trace
+<INFO> 22-Jul-2019::10:18:53.009 kali confd[4650]: - Enabling XPath trace log
+<INFO> 22-Jul-2019::10:18:53.086 kali confd[4650]: - Enabling error log
+<INFO> 22-Jul-2019::10:18:53.086 kali confd[4650]: - Writing error log to ./logs/confderr.log
+<INFO> 22-Jul-2019::10:18:53.209 kali confd[4650]: - Daemon logging started
+<DEBUG> 22-Jul-2019::10:18:53.247 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/ietf-netconf-monitoring.fxs
+<DEBUG> 22-Jul-2019::10:18:53.251 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-common-monitoring.fxs
+<DEBUG> 22-Jul-2019::10:18:53.254 kali confd[4650]: - Loading file ./ietf-netconf-acm.fxs
+<DEBUG> 22-Jul-2019::10:18:53.257 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-common-query.fxs
+<DEBUG> 22-Jul-2019::10:18:53.259 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-transactions.fxs
+<DEBUG> 22-Jul-2019::10:18:53.260 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-common.fxs
+<DEBUG> 22-Jul-2019::10:18:53.262 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/iana-crypt-hash.fxs
+<DEBUG> 22-Jul-2019::10:18:53.264 kali confd[4650]: - Loading file ./tailf-ned-cisco-ios.fxs
+<DEBUG> 22-Jul-2019::10:18:53.676 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/ietf-restconf-monitoring.fxs
+<DEBUG> 22-Jul-2019::10:18:53.679 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/ietf-netconf-notifications.fxs
+<DEBUG> 22-Jul-2019::10:18:53.684 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/ietf-netconf-partial-lock.fxs
+<DEBUG> 22-Jul-2019::10:18:53.686 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-xsd-types.fxs
+<DEBUG> 22-Jul-2019::10:18:53.687 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-monitoring.fxs
+<DEBUG> 22-Jul-2019::10:18:53.691 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-confd-monitoring.fxs
+<DEBUG> 22-Jul-2019::10:18:53.701 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-acm.fxs
+<DEBUG> 22-Jul-2019::10:18:53.705 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-webui.fxs
+<DEBUG> 22-Jul-2019::10:18:53.708 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-rollback.fxs
+<DEBUG> 22-Jul-2019::10:18:53.711 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-progress.fxs
+<DEBUG> 22-Jul-2019::10:18:53.715 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-with-transaction-id.fxs
+<DEBUG> 22-Jul-2019::10:18:53.717 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-rollback.fxs
+<DEBUG> 22-Jul-2019::10:18:53.719 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-query.fxs
+<DEBUG> 22-Jul-2019::10:18:53.722 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-inactive.fxs
+<DEBUG> 22-Jul-2019::10:18:53.724 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-forward.fxs
+<DEBUG> 22-Jul-2019::10:18:53.727 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-netconf-extensions.fxs
+<DEBUG> 22-Jul-2019::10:18:53.730 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/tailf-kicker.fxs
+<DEBUG> 22-Jul-2019::10:18:53.732 kali confd[4650]: - Loading file ./aaa.fxs
+<DEBUG> 22-Jul-2019::10:18:53.735 kali confd[4650]: - Skipping file /root/nso-5.1/netsim/confd/etc/confd/ietf-netconf-acm.fxs: namespace already loaded
+<DEBUG> 22-Jul-2019::10:18:53.735 kali confd[4650]: - Skipping file /root/nso-5.1/netsim/confd/etc/confd/tailf-aaa.fxs: namespace already loaded
+<DEBUG> 22-Jul-2019::10:18:54.008 kali confd[4650]: - Loading file ./confd.c.ccl
+<DEBUG> 22-Jul-2019::10:18:54.092 kali confd[4650]: - Loading file ./confd.i.ccl
+<DEBUG> 22-Jul-2019::10:18:54.095 kali confd[4650]: - Loading file /root/nso-5.1/netsim/confd/etc/confd/confd.ccl
+<INFO> 22-Jul-2019::10:18:54.580 kali confd[4650]: - Starting to listen for Internal IPC on 127.0.0.1:5012
+<INFO> 22-Jul-2019::10:18:55.507 kali confd[4650]: - Starting to listen for NETCONF SSH on 0.0.0.0:12024
+<INFO> 22-Jul-2019::10:18:55.635 kali confd[4650]: - Starting to listen for CLI SSH on 0.0.0.0:10024
+<INFO> 22-Jul-2019::10:18:55.738 kali confd[4650]: - ConfD started vsn: 7.1
+<INFO> 22-Jul-2019::10:22:14.316 kali confd[4650]: - ConfD stopping (confd --stop called by root in /root/nil_NSO_exercise/netsim/nil/nil2)
+<INFO> 22-Jul-2019::10:22:14.321 kali confd[4650]: - Stopping to listen for NETCONF SSH on 0.0.0.0:12024
+<INFO> 22-Jul-2019::10:22:14.358 kali confd[4650]: - Stopping to listen for Internal IPC on 127.0.0.1:5012
+<INFO> 22-Jul-2019::10:22:14.366 kali confd[4650]: - Daemon logging terminating, reason: shutdown

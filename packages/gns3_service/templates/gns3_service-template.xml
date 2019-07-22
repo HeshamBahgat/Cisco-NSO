@@ -6,7 +6,7 @@
           <name>{/device}</name>
           <config>
             <interface xmlns="urn:ios">
-          <GigabitEthernet>
+          <Loopback >
             <name>{$ID}</name>
             <description>GigabitEthernet-service</description>
             <ip>
@@ -17,7 +17,7 @@
                 </primary>
               </address>
             </ip>
-          </GigabitEthernet>
+          </Loopback >
         </interface>
           </config>
         </device>

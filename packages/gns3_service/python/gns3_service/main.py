@@ -1,7 +1,7 @@
 # -*- mode: python; python-indent: 4 -*-
 import ncs
 from ncs.application import Service
-
+from ip_calc import Ip_Calc
 
 class MyService(Service):
     """
@@ -13,11 +13,17 @@ class MyService(Service):
     def cb_create(self, tctx, root, service, proplist):
         self.log.info('Creating IP {} & MASK {})', (service._path, ))
 
+        device = service.device  # later will be used
 
-        device = service.device # later will be used
         interface_id = service.id
-        mask = service.mask
         ip = service.ip
+        mask = service.mask
+
+        call_class = Ip_Calc()
+
+        i = (call_class.binary(ip))
+        m = (call_class.binary(mask))
+        ip = call_class.host_calc(m, i)
 
         vars = ncs.template.Variables()
 
@@ -28,6 +34,7 @@ class MyService(Service):
 
         template = ncs.template.Template(service)
         template.apply('gns3_service-template', vars)
+
 
 
 
