@@ -5,18 +5,18 @@
       <name>{/device}</name>
       <config>
         <interface xmlns="urn:ios">
-          <GigabitEthernet>
-            <name>{interface/id}</name>
+          <Loopback>
+            <name>{/id}</name>
             <description>GigabitEthernet-service</description>
             <ip>
               <address>
                 <primary>
-                  <address>{ip-address}</address>
-                  <mask>{mask}</mask>
+                  <address>{/ip-address}</address>
+                  <mask>{/mask}</mask>
                 </primary>
               </address>
             </ip>
-          </GigabitEthernet>
+          </Loopback>
         </interface>
       </config>
     </device>

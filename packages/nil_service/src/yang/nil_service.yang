@@ -14,13 +14,6 @@ module nil_service {
     prefix ncs;
   }
 
-  typedef interface-name {
-    type string {
-      length "min .. 30";
-      pattern "[A-Za-z][^/:.]*";
-    }
-  }
-
   list nil_service {
     key device;
 
@@ -34,13 +27,10 @@ module nil_service {
       }
     }
 
-    list interface{
-    key id;
-
     leaf id {
     tailf:info "Interface Id";
       mandatory true;
-      type interface-name;
+      type string;
     }
 
   leaf ip-address {
@@ -54,7 +44,7 @@ module nil_service {
   mandatory true;
   type inet:ipv4-address;
   }
-}
+
 
 }
     }
